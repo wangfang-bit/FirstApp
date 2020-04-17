@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="Celsius" translatable="false">请输入摄氏度</string>
+    <string name="Fahrenheit" translatable="false">转换为华氏温度</string>
+    <string name="Eventuate" translatable="false">结果为：</string>
+    <string name="action_settings">设置</string>
+    <string name="lable_add1">+1分</string>
+    <string name="hint_txt">请输入摄氏温度</string>
+    <string name="lable_add2">+2分</string>
+    <string name="lable_add3">+3分</string>
+    <string name="btn_resert_label">重置</string>
+    <string name="rmb_hint">请输入人民币</string>
+    <string name="btn_dollar_label">转换为美元</string>
+    <string name="btn_euro_label">转换为欧元</string>
+    <string name="btn_won_label">转换为韩元</string>
+    <string name="btn_opencfg_label">打开新窗口</string>
+    <string name="btn_save_label">保存</string>
+</resources>

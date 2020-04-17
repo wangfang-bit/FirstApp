@@ -1,5 +1,20 @@
 <resources>
     <string name="app_name">FirstApp</string>
-    <string name="str">Hello</string>
-    <string name="action_settings">Settings</string>
+    <string name="action_settings">setting</string>
+    <string name="Celsius">Please enter Celsius</string>
+    <string name="Fahrenheit">Convert to Fahrenheit</string>
+    <string name="Eventuate">Eventuate</string>
+    <string name="hint_txt">Please enter Celsius</string>
+    <string name="lable_add1">+1 point</string>
+    <string name="lable_add2">+2 points</string>
+    <string name="lable_add3">+3 points</string>
+    <string name="btn_resert_label">Reset</string>
+    <string name="btn_dollar_label">Dollar</string>
+    <string name="btn_euro_label">Euro</string>
+    <string name="btn_won_label">Won</string>
+    <string name="rmb_hint">Input RMB</string>
+    <string name="btn_opencfg_label">Open</string>
+    <string name="btn_save_label">Save</string>
+    <string name="menu_set_label">Setting</string>
+
 </resources>
