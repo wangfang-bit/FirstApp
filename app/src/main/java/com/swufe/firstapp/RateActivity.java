@@ -202,18 +202,27 @@ public class RateActivity extends AppCompatActivity implements Runnable{
             //doc = Jsoup.parse(html);
             Log.i(TAG,"run:" + doc.title());
             Elements tables = doc.getElementsByTag("table");
+
             /*for(Element table : tables){
-                Log.i(TAG,"run:table["+i+"]=" + table);
+                //Log.i(TAG,"run:table["+i+"]=" + table);
                 i++;
             }*/
 
-            Element table6 = tables.get(5);
-            //Log.i(TAG,"run: table6=" + table6);
+            Element table1 = tables.get(0);
+            //Log.i(TAG,"run: table1=" + table1);
             //获取TD中的数值
-            Elements tds = table6.getElementsByTag("td");
-            for(int i=0;i<tds.size();i+=8){
+            Elements tds = table1.getElementsByTag("td");
+            /*for(Element td : tds ){
+                Log.i(TAG,"run:td="+td);
+                Log.i(TAG,"run:text="+td.text());
+                Log.i(TAG,"run:html="+td.html());
+            }*/
+            for(int i=0;i<tds.size();i+=6){
                 Element td1 = tds.get(i);
                 Element td2 = tds.get(i+5);
+
+                Log.i(TAG,"run:text="+td1.text());
+                Log.i(TAG,"run:val="+td2.text());
                 Log.i(TAG,"run: "+td1.text()+"==>"+td2.text());
                 String str1 = td1.text();
                 String val = td2.text();
@@ -224,7 +233,7 @@ public class RateActivity extends AppCompatActivity implements Runnable{
                 else if("欧元".equals(str1)) {
                     bundle.putFloat("euro_rate",100f/Float.parseFloat(val));
                 }
-                else if("韩国元".equals(str1)) {
+                else if("韩元".equals(str1)) {
                     bundle.putFloat("won_rate",100f/Float.parseFloat(val));
                 }
             }
