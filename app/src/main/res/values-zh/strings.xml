@@ -16,4 +16,8 @@
     <string name="btn_won_label">转换为韩元</string>
     <string name="btn_opencfg_label">打开新窗口</string>
     <string name="btn_save_label">保存</string>
+    <string name="lable_open_list">打开列表</string>
+    <string name="menu_set_label">设置</string>
+    <string name="key_hint">请输入关键字</string>
+    <string name="btn_query_label">查询</string>
 </resources>

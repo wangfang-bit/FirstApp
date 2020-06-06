@@ -16,5 +16,8 @@
     <string name="btn_opencfg_label">Open</string>
     <string name="btn_save_label">Save</string>
     <string name="menu_set_label">Setting</string>
+    <string name="lable_open_list">OpenList</string>
+    <string name="key_hint">Input KEY</string>
+    <string name="btn_query_label">Query</string>
 
 </resources>
